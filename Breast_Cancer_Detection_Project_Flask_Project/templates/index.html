@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Detection</title>
+    <link href="{{ url_for('static', filename='styles/bootstrap_5.3.1.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <a class="navbar-brand" href="/">
+          <img src="/static/images/breast-cancer-1.jpg" width="80" height="50" class="d-inline-block mx-4" alt="Cancer">
+          <b>Breast Cancer Detection</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex flex-row-reverse collapse navbar-collapse mx-4" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="predict">Predict</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+     
+    <div class="container">
+        <h1 class="text-center">Breast Cancer Detection</h1>
+        <form>            
+            <div class="card p-2">
+                <div class="row">
+                    <div class="col-8 text-justify">
+                        <h3 class="card-text">Introduction</h3>
+                        <p class="card-text">Breast cancer is one of the most common and potentially life-threatening forms of cancer that
+                            affects a significant number of women worldwide. Early detection of breast cancer plays a crucial
+                            role in improving patient outcomes and survival rates. Machine learning algorithms have the
+                            potential to analyze large volumes of medical imaging data, extract meaningful features, and assist
+                            in the identification of suspicious regions or potential tumors.</p>
+
+                            <p>By leveraging these algorithms, healthcare professionals can make more accurate and timely
+                                diagnoses, leading to improved patient care and outcomes. Breast cancer is a prevalent form of
+                                cancer that affects a significant number of women worldwide. Early detection plays a crucial role
+                                in improving patient outcomes and survival rates. Breast cancer detection refers to the process of
+                                identifying abnormal changes in breast tissue, such as tumors or growths that may indicate the
+                                presence of cancer cells.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="/static/images/breast-cancer-1.jpg" class="img-fluid" alt="Cancer">
+                    </div>
+                </div>
+
+                <div class="row">                    
+                    <div class="col-4">
+                        <img src="/static/images/breast-cancer-awarness.png" class="img-fluid" alt="Cancer">
+                    </div>
+                    <div class="col-8">
+                        <h3 class="card-text">Aim</h3>
+                        <p>The aim of this project is to develop and implement an integrated approach that utilizes image
+                            processing and machine learning techniques to enhance the accuracy of breast cancer
+                            prediction. By combining these two domains, the project seeks to achieve the following.</p>
+                            <ul>
+                                <li><b>malignant</b></li>
+                                <li><b>benign</b></li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <h3 class="card-text">Objectives:</h3>
+                        <ul>
+                            <li><b>Prediction Accuracy:</b>
+                                Achieve high prediction accuracy, sensitivity, and specificity in
+                                identifying breast cancer cases. The developed models should be able to minimize false
+                                negatives (missed cancer cases) and false positives (incorrectly identified cases), enhancing
+                                the reliability of the predictions.
+                            </li>
+                            <li><b>Contribution to Healthcare:</b>
+                                Contribute to the ongoing efforts to improve breast cancer
+                                diagnosis and treatment. The project's outcomes could potentially lead to enhanced patient care,
+                                reduced mortality rates, and improved quality of life for individuals diagnosed with breast
+                                cancer.
+                            </li>
+                        </ul>     
+                    </div>
+                    <div class="col-4">
+                        <img src="/static/images/prevent.jpg" class="img-fluid" alt="Cancer">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
